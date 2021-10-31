@@ -1,4 +1,9 @@
 $primary: #741bed;
+html,
+body {
+  height: 100%;
+  font-size: 1rem;
+}
 
 #fix-bar {
   position: fixed;
@@ -14,8 +19,7 @@ $primary: #741bed;
 .row {
   background: #fbf7f2;
 }
-.section {
+.content {
   height: 100vh;
 }
-
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
