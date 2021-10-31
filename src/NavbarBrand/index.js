@@ -1,12 +1,12 @@
 const NavbarBrand = () => {
   return (
     <header>
-      <div id="fix-bar" class="navbar navbar-white bg-white">
-        <div class="container">
-          <div class="navbar-brand d-flex align-items-center">
+      <div id="fix-bar" className="navbar navbar-white bg-white">
+        <div className="container">
+          <div className="navbar-brand d-flex align-items-center">
             <strong>HeyHolder</strong>
           </div>
-          <span class="navbar-text">제휴 문의</span>
+          <span className="navbar-text">제휴 문의</span>
         </div>
       </div>
     </header>
