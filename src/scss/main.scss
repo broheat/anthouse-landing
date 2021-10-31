@@ -11,9 +11,11 @@ $primary: #741bed;
 .navbar-brand {
   color: #741bed;
 }
+.row {
+  background: #fbf7f2;
+}
 .section {
   height: 100vh;
-  background: #fbf7f2;
 }
 
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";

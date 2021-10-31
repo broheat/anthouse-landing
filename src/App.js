@@ -5,21 +5,23 @@ function App() {
   return (
     <div>
       <NavbarBrand />
-      <section className="row section">
-        <div className="col-md-3 m-auto me-2">
-          <h1 className="top-title">
-            회사의 주인은
-            <br />
-            당신
-          </h1>
-          <p className="text-m">
-            회사 경영에 대한 당신의 생각을 제안 해보세요.
-            <br />
-            다른 주주의 좋은 생각에 의결권을 위임 해보세요.
-          </p>
+      <div className="container-fluid">
+        <div className="row section justify-content-center align-items-center flex-wrap">
+          <div className="col-md-3">
+            <h1 className="top-title">
+              회사의 주인은
+              <br />
+              당신
+            </h1>
+            <p className="text-m">
+              회사 경영에 대한 당신의 생각을 제안 해보세요.
+              <br />
+              다른 주주의 좋은 생각에 의결권을 위임 해보세요.
+            </p>
+          </div>
+          <img src={app01} className="col-md-2 h-50" alt="..." />
         </div>
-        <img src={app01} className="col-md-2 m-auto ms-2 h-50" alt="..." />
-      </section>
+      </div>
 
       <footer className="text-muted py-5">
         <div className="container">
