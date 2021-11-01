@@ -2,6 +2,7 @@ import NavbarBrand from "./NavbarBrand";
 import app01 from "./imges/app01.png";
 import app02 from "./imges/app02.png";
 import company from "./imges/company.png";
+import Modal from "./Modal";
 
 function App() {
   return (
@@ -93,61 +94,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div
-        className="modal fade"
-        id="associateModal"
-        tabindex="-1"
-        aria-labelledby="modal-title"
-        aria-hidden="true"
-      >
-        <div className="modal-dialog">
-          <div className="modal-content">
-            <div className="modal-header">
-              <h5 className="modal-title" id="modal-title">
-                제휴 문의
-              </h5>
-              <button
-                type="button"
-                className="btn-close"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div className="modal-body">
-              <form action="https://formspree.io/f/mdoyraya" method="POST">
-                <div className="d-flex">
-                  <div className="col-5">
-                    <input
-                      type="email"
-                      className="form-control"
-                      name="_replyto"
-                      placeholder="이메일로 신청하기"
-                    />
-                  </div>
-                </div>
-              </form>
-            </div>
-            <div className="modal-footer">
-              <button
-                type="button"
-                className="btn btn-secondary"
-                data-bs-dismiss="modal"
-              >
-                Close
-              </button>
-              <button type="submit" className="btn btn-primary">
-                Save changes
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"
-      ></script>
+      <Modal />
     </div>
   );
 }
