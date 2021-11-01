@@ -64,21 +64,24 @@ function App() {
                 주주 활동의 시작,
                 <br /> HeyHolder 출시되면 첫 번째로 알려드릴께요!
               </p>
-              <div className="d-flex">
-                <div className="col-5">
-                  <input
-                    type="email"
-                    className="form-control"
-                    id="exampleFormControlInput1"
-                    placeholder="이메일로 신청하기"
-                  />
+
+              <form action="https://formspree.io/f/mdoyraya" method="POST">
+                <div className="d-flex">
+                  <div className="col-5">
+                    <input
+                      type="email"
+                      className="form-control"
+                      name="_replyto"
+                      placeholder="이메일로 신청하기"
+                    />
+                  </div>
+                  <div className="col-auto ms-2">
+                    <button type="submit" className="btn btn-primary">
+                      신청하기
+                    </button>
+                  </div>
                 </div>
-                <div className="col-auto ms-2">
-                  <button type="submit" className="btn btn-primary" onclick="">
-                    신청하기
-                  </button>
-                </div>
-              </div>
+              </form>
             </div>
           </div>
         </div>
