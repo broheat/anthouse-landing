@@ -6,10 +6,10 @@ function App() {
     <div>
       <NavbarBrand />
       <div className="page-header">
-        <div className="container">
+        <div className="container-fluid">
           <div className="row">
-            <div className="d-flex col-md-3 content justify-content-center align-items-center mx-auto">
-              <div>
+            <div className="d-flex col-md-6 content">
+              <div className="d-flex flex-column left">
                 <h1 className="top-title">
                   회사의 주인은
                   <br />
@@ -22,9 +22,9 @@ function App() {
                 </p>
               </div>
             </div>
-            <div className="d-flex col-md-3 content justify-content-center align-items-center mx-auto">
+            <div className="d-flex col-md-6 content">
               <div>
-                <img src={app01} className="col-md-2 h-50" alt="..." />
+                <img src={app01} className="h-50" alt="..." />
               </div>
             </div>
           </div>
