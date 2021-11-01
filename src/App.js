@@ -56,9 +56,13 @@ function App() {
         <div className="row">
           <div className="d-flex content justify-content-center">
             <div className="d-flex flex-column">
-              <h1 className="title">HeyHolder를 가장 빠르게 만나보세요.</h1>
+              <h1 className="title">
+                HeyHolder를
+                <br /> 가장 빠르게 만나보세요.
+              </h1>
               <p className="text-m">
-                주주 활동의 시작, HeyHolder 출시되면 첫 번째로 알려드릴께요!
+                주주 활동의 시작,
+                <br /> HeyHolder 출시되면 첫 번째로 알려드릴께요!
               </p>
               <div className="d-flex">
                 <div className="col-5">

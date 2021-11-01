@@ -40,6 +40,9 @@ body {
 }
 
 @media (max-width: 1199.98px) {
+  .title {
+    font-size: 2rem;
+  }
   .content,
   .company {
     justify-content: center;
