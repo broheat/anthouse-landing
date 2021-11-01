@@ -89,7 +89,7 @@ function App() {
       </div>
       <div className="container-fluid forth">
         <div className="row">
-          <div className="d-flex justify-content-center company">
+          <div className="d-flex justify-content-center company flex-column">
             <img className="w-50" src={company} alt="협력업체" />
           </div>
         </div>
