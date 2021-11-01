@@ -16,7 +16,7 @@ function App() {
                 <br />
                 당신
               </h1>
-              <p className="text-m">
+              <p>
                 회사 경영에 대한 당신의 생각을 제안 해보세요.
                 <br />
                 다른 주주의 좋은 생각에 의결권을 위임 해보세요.
@@ -43,7 +43,7 @@ function App() {
                 주주들끼리만의
                 <br /> 소통 공간
               </h1>
-              <p className="text-m">
+              <p>
                 주주가 아닌 자는 접근이 불가합니다.
                 <br />
                 각종 광고와 허위 정보를 피하고 진짜 정보를 공유 해보세요.
@@ -56,11 +56,11 @@ function App() {
         <div className="row">
           <div className="d-flex content justify-content-center">
             <div className="d-flex flex-column">
-              <h1 className="title">
+              <h1 className="title text-m">
                 HeyHolder를
                 <br /> 가장 빠르게 만나보세요.
               </h1>
-              <p className="text-m">
+              <p>
                 주주 활동의 시작,
                 <br /> HeyHolder 출시되면 첫 번째로 알려드릴께요!
               </p>
