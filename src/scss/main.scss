@@ -16,6 +16,10 @@ body {
 .navbar-brand {
   color: #741bed;
 }
+.top-title {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
 .row {
   background: #fbf7f2;
 }
@@ -26,7 +30,7 @@ body {
 
 @media (min-width: 992px) {
   .left {
-    margin-left: 60%;
+    margin-left: 55%;
   }
 }
 

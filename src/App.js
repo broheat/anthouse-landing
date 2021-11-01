@@ -23,7 +23,7 @@ function App() {
               </div>
             </div>
             <div className="d-flex col-md-6 content">
-              <div>
+              <div className="right">
                 <img src={app01} className="h-50" alt="..." />
               </div>
             </div>
