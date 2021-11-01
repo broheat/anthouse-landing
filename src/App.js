@@ -32,7 +32,7 @@ function App() {
       <div className="container-fluid second">
         <div className="row">
           <div className="d-flex col-md-6 content">
-            <div className="left">
+            <div className="left-img">
               <img src={app02} alt="..." />
             </div>
           </div>

@@ -29,13 +29,16 @@ body {
   align-items: center;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .left {
     margin-left: 55%;
   }
+  .left-img {
+    margin-left: 51%;
+  }
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 767.98px) {
   .content {
     justify-content: center;
   }
