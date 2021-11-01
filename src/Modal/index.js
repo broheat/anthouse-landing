@@ -31,6 +31,7 @@ const Modal = () => {
                   class="form-control"
                   id="nameinput"
                   placeholder="이름"
+                  name="name"
                 />
               </div>
               <div class="mb-3">
@@ -42,6 +43,7 @@ const Modal = () => {
                   class="form-control"
                   id="emailinput"
                   placeholder="이메일 주소를 입력 해주세요."
+                  name="_replyto"
                 />
               </div>
               <div class="mb-3">
@@ -56,19 +58,19 @@ const Modal = () => {
                   placeholder="내용을 입력 해주세요."
                 ></textarea>
               </div>
+              <div className="modal-footer">
+                <button
+                  type="button"
+                  className="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+                <button type="submit" className="btn btn-primary">
+                  Save changes
+                </button>
+              </div>
             </form>
-          </div>
-          <div className="modal-footer">
-            <button
-              type="button"
-              className="btn btn-secondary"
-              data-bs-dismiss="modal"
-            >
-              Close
-            </button>
-            <button type="submit" className="btn btn-primary">
-              Save changes
-            </button>
           </div>
         </div>
       </div>
