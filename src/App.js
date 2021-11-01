@@ -24,7 +24,7 @@ function App() {
           </div>
           <div className="d-flex col-md-6 content">
             <div className="right">
-              <img src={app01} alt="..." />
+              <img src={app01} alt="주주제안" />
             </div>
           </div>
         </div>
@@ -33,7 +33,7 @@ function App() {
         <div className="row">
           <div className="d-flex col-md-6 content">
             <div className="left-img">
-              <img src={app02} alt="..." />
+              <img src={app02} alt="주주게시판" />
             </div>
           </div>
           <div className="d-flex col-md-6 content">
