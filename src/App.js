@@ -93,6 +93,55 @@ function App() {
           </div>
         </div>
       </div>
+      <div
+        className="modal fade"
+        id="associateModal"
+        tabindex="-1"
+        aria-labelledby="modal-title"
+        aria-hidden="true"
+      >
+        <div className="modal-dialog">
+          <div className="modal-content">
+            <div className="modal-header">
+              <h5 className="modal-title" id="modal-title">
+                제휴 문의
+              </h5>
+              <button
+                type="button"
+                className="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div className="modal-body">
+              <form action="https://formspree.io/f/mdoyraya" method="POST">
+                <div className="d-flex">
+                  <div className="col-5">
+                    <input
+                      type="email"
+                      className="form-control"
+                      name="_replyto"
+                      placeholder="이메일로 신청하기"
+                    />
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div className="modal-footer">
+              <button
+                type="button"
+                className="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+              <button type="submit" className="btn btn-primary">
+                Save changes
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
     </div>

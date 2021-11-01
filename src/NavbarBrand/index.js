@@ -6,7 +6,14 @@ const NavbarBrand = () => {
           <div className="navbar-brand d-flex align-items-center">
             <strong>HeyHolder</strong>
           </div>
-          <span className="navbar-text">제휴 문의</span>
+          <button
+            type="button"
+            className="btn"
+            data-bs-toggle="modal"
+            data-bs-target="#associateModal"
+          >
+            제휴 문의
+          </button>
         </div>
       </div>
     </header>
