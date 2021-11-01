@@ -24,12 +24,13 @@ body {
   background: #fbf7f2;
 }
 
-.content {
+.content,
+.company {
   height: 100vh;
   align-items: center;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   .left {
     margin-left: 55%;
   }
@@ -38,12 +39,16 @@ body {
   }
 }
 
-@media (max-width: 767.98px) {
-  .content {
+@media (max-width: 1199.98px) {
+  .content,
+  .company {
     justify-content: center;
   }
   .content img {
     height: 500px;
+  }
+  .company img {
+    min-width: 400px;
   }
 }
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
