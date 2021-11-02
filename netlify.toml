@@ -1,0 +1,5 @@
+[[ 플러그인 ]]
+ 패키지 = " @netlify/plugin-sitemap "
+
+  [ 플러그인 . 입력 ]
+   buildDir = "."
