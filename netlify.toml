@@ -1,5 +1,12 @@
-[[plugins]]
-package = "@netlify/plugin-sitemap"
+[build]
+  publish = "public"
 
-  [plugins.inputs]
-  buildDir = "."
+[[plugins]]
+  package = "netlify-plugin-submit-sitemap"
+
+	[plugins.inputs]
+
+	# Enabled providers to submit sitemap to (optional, default = 'google', 'bing', 'yandex'). Possible providers are currently only 'google', 'bing', 'yandex'.
+	providers = [
+		"google",
+	]
