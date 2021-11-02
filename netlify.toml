@@ -1,5 +1,5 @@
-[[ 플러그인 ]]
- 패키지 = " @netlify/plugin-sitemap "
+[[plugins]]
+package = "@netlify/plugin-sitemap"
 
-  [ 플러그인 . 입력 ]
-   buildDir = "."
+  [plugins.inputs]
+  buildDir = "public"
