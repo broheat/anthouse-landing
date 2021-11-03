@@ -37,7 +37,6 @@
     ]
   },
   "devDependencies": {
-    "@netlify/plugin-sitemap": "^0.8.1",
-    "netlify-plugin-submit-sitemap": "^0.2.3"
+    "@netlify/plugin-sitemap": "^0.8.1"
   }
 }
