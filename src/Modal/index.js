@@ -22,36 +22,36 @@ const Modal = () => {
           </div>
           <div className="modal-body">
             <form action="https://formspree.io/f/mdoyraya" method="POST">
-              <div class="mb-3">
-                <label for="nameinput" class="form-label">
+              <div className="mb-3">
+                <label for="nameinput" className="form-label">
                   이름
                 </label>
                 <input
                   type="text"
-                  class="form-control"
+                  className="form-control"
                   id="nameinput"
                   placeholder="이름"
                   name="name"
                 />
               </div>
-              <div class="mb-3">
-                <label for="emailinput" class="form-label">
+              <div className="mb-3">
+                <label for="emailinput" className="form-label">
                   이메일 주소
                 </label>
                 <input
                   type="email"
-                  class="form-control"
+                  className="form-control"
                   id="emailinput"
                   placeholder="이메일 주소를 입력 해주세요."
                   name="_replyto"
                 />
               </div>
-              <div class="mb-3">
-                <label for="textarea" class="form-label">
+              <div className="mb-3">
+                <label for="textarea" className="form-label">
                   내용
                 </label>
                 <textarea
-                  class="form-control"
+                  className="form-control"
                   name="message"
                   id="Textarea"
                   rows="10"

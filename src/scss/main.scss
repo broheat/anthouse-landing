@@ -36,7 +36,7 @@ footer {
   background: #495057;
   font-size: 1.2rem;
   color: white;
-  height: 20vh;
+  height: 25vh;
 }
 
 .footer-text {
@@ -53,6 +53,9 @@ footer {
   .left-img {
     margin-left: 51%;
   }
+  .company img {
+    width: 50%;
+  }
 }
 
 @media (max-width: 1199.98px) {
@@ -67,11 +70,18 @@ footer {
   .content img {
     height: 500px;
   }
+  .right-img {
+    margin-bottom: 20%;
+  }
+  .left-img {
+    margin-top: 20%;
+  }
   .company img {
-    min-width: 350px;
+    object-fit: cover;
+    width: 100%;
   }
   footer {
-    font-size: 0.9rem;
+    font-size: 2vh;
     justify-content: center;
     align-items: center;
   }

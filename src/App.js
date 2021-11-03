@@ -25,7 +25,7 @@ function App() {
             </div>
           </div>
           <div className="d-flex col-lg-6 content">
-            <div className="right">
+            <div className="right-img">
               <img src={app01} alt="주주제안" />
             </div>
           </div>
@@ -68,7 +68,7 @@ function App() {
 
               <form action="https://formspree.io/f/mdoyraya" method="POST">
                 <div className="d-flex">
-                  <div className="col-5">
+                  <div className="col-7">
                     <input
                       type="email"
                       className="form-control"
@@ -90,7 +90,7 @@ function App() {
       <div className="container-fluid forth">
         <div className="row">
           <div className="d-flex justify-content-center company flex-column">
-            <img className="w-50" src={company} alt="협력업체" />
+            <img className="company-img" src={company} alt="협력업체" />
           </div>
         </div>
       </div>
