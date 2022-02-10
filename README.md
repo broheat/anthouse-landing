@@ -1,2 +1,2 @@
 # Heyholder landing page
-https://heyholder.com
+https://www.heyholder.com/
